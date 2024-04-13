@@ -1,0 +1,145 @@
+:root{
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-brand-color: #4d5ae5;
+    --primary-text-color: #434455;
+    --primary-dark-color: #2e2f42;
+    --primary-accent-color: #e7e9fc;
+    --primary-white-color: #ffffff;
+    --pressed-state-color: #404bbf;
+    --primary-white-text-color: #f4f4fd;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+body{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+.logo{
+    font-family: var(--secondary-font);
+    color: var(--primary-dark-color);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.3125em;
+    letter-spacing: 0.03375em;
+    text-transform: uppercase;
+}
+
+.logo > span {
+    color: var(--primary-brand-color);
+}
+
+.header-nav{
+    font-weight: 500;
+}
+
+.header-nav-link{
+    color: var(--primary-dark-color);
+}
+
+.header-address{
+    font-style: normal;
+}
+
+.header-address-link{
+    color: var(--primary-text-color)
+}
+
+.link-active:hover, .link-active:focus{
+    color: var(--pressed-state-color);
+}
+
+.hero{ 
+    background-color: var(--primary-dark-color);
+}
+
+.hero-title{
+    font-size: 56px;
+    line-height: 3.75em;
+    letter-spacing: 0.07em;
+    color: var(--primary-white-color);
+}
+
+.hero-btn{
+    background-color: var(--primary-brand-color);
+    color: var(--primary-white-color);
+}
+
+
+.hero-btn:hover, .hero-btn:focus{
+    background-color: var(--pressed-state-color);
+}
+
+.btn{
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+}
+
+.title-l{
+    font-size: 20px;
+    color: var(--primary-dark-color);
+    letter-spacing: 0.025em;
+    font-weight: 500;
+}
+
+.title-xl{
+    font-size: 36px;
+    color: var(--primary-dark-color);
+    letter-spacing: 0.045em;
+    text-transform: capitalize;
+    line-height: 2.5em;
+}
+
+.team{
+    background-color: var(--primary-white-text-color);
+
+}
+
+.team-item{
+    background-color: var(--primary-white-color);
+}
+
+.footer{
+    background-color: var(--primary-dark-color);
+}
+
+.footer-text{
+    color: var(--primary-white-text-color);
+}
+
+.footer-logo{
+    color: var(--primary-white-text-color);
+}
+
+
+.filter-btn {
+    color: var(--primary-brand-color);
+    background-color: var(--primary-white-text-color);
+}
+
+.filter-btn:hover, .filter-btn:focus{
+    background-color: var(--pressed-state-color);
+    color: var(--primary-white-color);
+}
+
+.portfolio-text{
+    color: var(--primary-dark-color);
+}
